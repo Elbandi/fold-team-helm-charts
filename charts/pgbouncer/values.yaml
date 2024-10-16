@@ -10,11 +10,11 @@ nodeSelector: {} # optionally define nodeSelector
 
 budget:
   # PodDisruptionBudget spec.minAvailable
-  minAvailable: 0
+  minAvailable: 1
 
 image:
   repository: bitnami/pgbouncer
-  tag: 1.18.0
+  tag: 1.23.1
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
